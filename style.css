@@ -1,0 +1,31 @@
+.logoSize{
+    
+    width: 100px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+}
+a:hover{
+   
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.liste1{
+
+    margin-left: -30px;
+    padding-left: 0px;
+
+}
+.listes {
+      
+   margin-left: 50px;
+   margin-right: 5px;
+   padding: 10px;
+}
