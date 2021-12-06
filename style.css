@@ -1,31 +1,91 @@
-.logoSize{
-    
+*{
+    margin:0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+
+}
+.logo{
+    margin-left: 5px;
+    margin-top: 5px;
     width: 100px;
     height: 50px;
 }
 a{
     text-decoration: none;
+    font-size: 15px;
     color: black;
     font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
 }
 a:hover{
    
     text-decoration: underline;
+    
 }
-ul {
-    list-style: none;
+.Navigation {
+    
     display: flex;
+    list-style: none;
     align-items: center;
 }
 .liste1{
 
-    margin-left: -30px;
+    margin-right: 30px;
     padding-left: 0px;
 
 }
 .listes {
       
-   margin-left: 50px;
-   margin-right: 5px;
+   margin-left: 5px;
    padding: 10px;
+}
+.braedcrumbs {
+    
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 50px;
+}
+.secondes {
+
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.img{
+
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+h1{
+    margin: 10px;
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+}
+.paragraphe{
+    margin: 10px;
+}
+.product{
+    border: solid 1px black;
+    width: 200px;
+    padding: 10px;
+    margin: 14px;
+}
+h2{
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.section{
+    display: flex;
+}
+.price1{
+    color: grey;
+}
+.price3{
+    color: green;
 }
